@@ -28,7 +28,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Load service account credentials
-// const SERVICE_ACCOUNT_FILE = './gen-lang-client-0198426179-4fdb77cc43fc.json';
+const SERVICE_ACCOUNT_FILE = './google-service-account-creds.json';
 
 // Authenticate using the service account
 const auth = new google.auth.GoogleAuth({
